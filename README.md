@@ -4,3 +4,4 @@ Repositório destinado a Unidade Curricular de Sistemas Distribuidos e Mobile, C
 Alguns comando importantes:
 - Inicializar um repositório comum como uma aplicação Node.
 *npm init -y
+![Badge em Dependencias](https://img.shields.io/npm/v/npm/7.5.2)
