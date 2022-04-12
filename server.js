@@ -17,5 +17,5 @@ const route = router.get('/', (req, res, next) => {
 }); 
 app.use('/', route)
 server.listen(port);
-console.log('A API está rodando na porta', + port)
+console.log('A API está rodando na porta da Raiane...', + port)
 
