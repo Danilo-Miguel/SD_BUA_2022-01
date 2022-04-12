@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Danilo-Miguel/SD_BUA_2022-01/issues"
   },
-  "homepage": "https://github.com/Danilo-Miguel/SD_BUA_2022-01#readme"
+  "homepage": "https://github.com/Danilo-Miguel/SD_BUA_2022-01#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "http": "^0.0.1-security"
+  }
 }
