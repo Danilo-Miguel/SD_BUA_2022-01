@@ -8,4 +8,14 @@ Alguns comando importantes:
 
 - Instalação de dependências
 npm install http express --s
+
+- Npm start
+ "scripts": {
+    "start": "node ./repository/server.js"
+  },
+
+ - nodemon 
+npm install -g nodemon
+npm install --save-dev nodemon
+
 ![Badge em Dependencias](https://img.shields.io/npm/v/npm)
