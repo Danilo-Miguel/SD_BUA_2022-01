@@ -50,18 +50,18 @@
  /* o retorno das funções asincronas no java script é baseado nas promisses, 
  se a função for executada terá retorno e se não for também*/
 
-//  function primeiraFuncao() {
-//     console.log("Essa primeira função vai esperar um pouco")
-// }
-// async function segundaFuncao() {
-//     console.log("Essa segunda função vai executar primeiro")
-//     await primeiraFuncao()
-  
-//   console.log("Esse print aparecerá depois da exeução das duas funções!")
-// }
-// segundaFuncao()
+  /*function primeiraFuncao() {
+     console.log("Essa primeira função vai esperar um pouco")
+ }
+ async function segundaFuncao() {
+     console.log("Essa segunda função vai executar primeiro")
+     await primeiraFuncao()
+ 
+/  console.log("Esse print aparecerá depois da exeução das duas funções!")
+ }
+ segundaFuncao()
 
-
+*/
 function respostaApos5Segundos() {
     return new Promise(resolve => {
       setTimeout(() => {
@@ -76,7 +76,7 @@ function respostaApos5Segundos() {
     var resultadoPromisse = respostaApos5Segundos();
     console.log('resultado await', resultadoAwait);
     console.log('resultado promisse then', resultadoPromisse.then(function(resultado){
-      console.log('resultado promisse', resultado);
+      console.log('resultado promisse ', resultado);
     }));
     console.log('fim');
   }
